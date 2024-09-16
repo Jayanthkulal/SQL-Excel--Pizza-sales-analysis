@@ -23,13 +23,13 @@ Dataset: Pizza sales
 ## SQL Queries Used
 Sql Quries used for find out some KPI as below:
 
-- Total Revenue: select sum(total_price) as total_revenue from [pizza_sales excel file].
+   - Total Revenue: select sum(total_price) as total_revenue from [pizza_sales excel file].
  
--  Average Order Value: select sum(total_price) / COUNT(DISTINCT ORDER_ID) as average_order_value FROM [pizza_sales excel file].
+   -  Average Order Value: select sum(total_price) / COUNT(DISTINCT ORDER_ID) as average_order_value FROM [pizza_sales excel file].
 
--  Total Pizza Sold: select sum(quantity) as total_pizza_sold from [pizza_sales excel file].
+   -  Total Pizza Sold: select sum(quantity) as total_pizza_sold from [pizza_sales excel file].
 
-- Total Orders: select count( distinct order_id) as total_orders from [pizza_sales excel file].
+   - Total Orders: select count( distinct order_id) as total_orders from [pizza_sales excel file].
 
 - Average Pizzas Per Order: select cast(cast(sum(quantity) as decimal(10,2)) / cast(COUNT(distinct order_id)as decimal(10,2)) as decimal(10,2)) as avg_piza_per_order from [pizza_sales excel file].
 
@@ -53,6 +53,35 @@ group by pizza_name order by sum(quantity) desc,
 
 - bottom 5 sellers by total pizzas sold: select top 5 pizza_name, sum(quantity) as total_sales from [pizza_sales excel file]
 group by pizza_name order by sum(quantity) asc.
+
+## Data Preparation For the visualization 
+
+Data Cleaning for the dataset was done in excel  as follows:
+- created Total order coloum separately to ease the dashboard preparation( In order to find the distinct total order)
+- Created order day coloumn
+- Removed Unnecessary columns.
+- Removed Unnecessary rows.
+- Each of the columns in the table were validated to have the correct data type.
+
+## Visualization
+The following visualizations were created using Excel:
+
+- KPI Cards - Displaying Total Revenue, Average Order Value, Total Pizza Sold, Total Orders, and Average Pizzas per Order.
+- Bar Charts - Showing the daily and hourly trends of total orders.
+- Pie Charts - Displaying the percentage of sales by pizza category and pizza size.
+- Horizontal Bar Charts - Highlighting total pizza sold by category and the top 5 best-selling pizzas.
+
+## Dasboard 
+  Pizza sales Analysis
+
+  View Dshboard - 
+
+  ![Screenshot 2024-09-15 224017](https://github.com/user-attachments/assets/8d7c8195-0168-4f39-a7c1-15941e1f92a0)
+
+
+
+
+
 
 
 
