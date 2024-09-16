@@ -76,7 +76,7 @@ The following visualizations were created using Excel:
 ## Dasboard 
   Pizza sales Analysis
 
-  View Dshboard - 
+  View Dshboard - [Excel Pizza sales analysis](https://github.com/Jayanthkulal/SQL-Excel--Pizza-sales-analysis/blob/main/Excel%20project%20-%20Pizza%20sales.xlsx)
 
   ![Screenshot 2024-09-15 224017](https://github.com/user-attachments/assets/8d7c8195-0168-4f39-a7c1-15941e1f92a0)
 
