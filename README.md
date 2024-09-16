@@ -23,6 +23,8 @@ Dataset: [Pizza sales](https://github.com/Jayanthkulal/SQL-Excel--Pizza-sales-an
 ## SQL Queries Used
 Sql Quries used for find out some KPI as below:
 
+Document: [Sql Queries](https://github.com/Jayanthkulal/SQL-Excel--Pizza-sales-analysis/blob/main/Pizza%20Sales%20SQL%20queries.docx)
+
    - Total Revenue: select sum(total_price) as total_revenue from [pizza_sales excel file].
  
    -  Average Order Value: select sum(total_price) / COUNT(DISTINCT ORDER_ID) as average_order_value FROM [pizza_sales excel file].
