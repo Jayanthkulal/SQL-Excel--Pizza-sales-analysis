@@ -18,7 +18,7 @@ This project is a comprehensive analysis of pizza sales data using SQL and Excel
 
 dataset used for this task is Pizza sales excel file 
 
-Dataset: Pizza sales
+Dataset: (Pizza sales)[https://github.com/Jayanthkulal/SQL-Excel--Pizza-sales-analysis/blob/main/pizza_sales%20excel%20file.xlsx]
 
 ## SQL Queries Used
 Sql Quries used for find out some KPI as below:
