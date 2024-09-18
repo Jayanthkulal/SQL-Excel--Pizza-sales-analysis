@@ -81,6 +81,30 @@ The following visualizations were created using Excel:
   ![Screenshot 2024-09-15 224017](https://github.com/user-attachments/assets/8d7c8195-0168-4f39-a7c1-15941e1f92a0)
 
 
+  ## Insights
+
+  - Total Revenue: $70,397 generated from 1,840 orders.
+
+  - Average Order Value: Each order generates an average of $38.26.
+
+  -  High-Order Days: Thursday, Friday, and Saturday have the highest number of orders.
+
+   - Peak Order Times: Maximum orders occur between 12 PM and 1 PM, indicating lunch hours as the peak time for pizza sales.
+
+   - Classic Pizzas account for the majority of sales, with 1,286 pizzas sold.
+
+   - The Barbecue Chicken Pizza is the top seller with 231 pizzas sold, followed by The Hawaiian Pizza (217) and Thai Chicken Pizza (213).
+
+   - The Brie Carre Pizza is the least popular with just 46 pizzas sold, followed by Calabrese Pizza (65) and Spinach Supreme Pizza (71).
+
+   - Order Peaks: Orders peak at 12 PM and continue to be strong until around 8 PM, after which they gradually decline.
+
+   - Pizza Category Contribution: The Classic pizza category leads sales, followed by Veggie pizzas. The other categories like Chicken and Supreme make up a smaller portion 
+     but are still significant.
+
+   - Size Contribution: Large pizzas dominate the size distribution with nearly half the total sales. Offering combo deals on large pizzas could further drive revenue.
+
+
 
 
 
